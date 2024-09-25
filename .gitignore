@@ -1,0 +1,17 @@
+*.json
+!cat-data.json
+
+# Ignore node_modules
+node_modules/
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore environnement
+.env
+
+# Ignore build output
+dist/
+build/
